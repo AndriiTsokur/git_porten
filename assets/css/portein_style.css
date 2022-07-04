@@ -16,13 +16,14 @@ html {
 header {
     display: flex;
     flex-direction: column;
+	position: sticky;
+	top: 0;
     background-color: black;
     padding: 0 1rem 0 1rem;
     align-items: center;
 }
 
 nav {
-	background-color: green;
 	width: 65%;
 	height: 8rem;
 	display: grid;
@@ -46,8 +47,20 @@ a:hover {
 	color: white;
 }
 
+main {
+    display: flex;
+    width: auto;
+    height: 75vh;
+    background-color: black;
+    background-image: url(../img/bg_hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
 .header_top {
-	background-color: brown;
 	width: 65%;
 	height: 4.4rem;
 	display: grid;
@@ -80,7 +93,6 @@ ul.header_top_login {
 
 ul.header_nav_text {
     line-height: 8rem;
-    background-color: blue;
     justify-content: flex-end;
     align-items: center;
 }
@@ -104,6 +116,24 @@ ul.header_nav_icons {
 
 .header_nav_icons li:first-child {
 	padding: 0 4rem;
+}
+
+.hero {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero img {
+	max-width: 320px;
+}
+
+.hero p {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	margin-top: 8rem;
+	text-align: center;
 }
 
 @media(max-width: 1440px) {
@@ -135,5 +165,34 @@ ul.header_nav_icons {
 
 	ul.header_nav_text {
 		line-height: 6rem;
+	}
+}
+
+@media(max-width: 1165px) {
+	.hero {
+		width: 60%;
+	}
+	
+	.hero img {
+		width: 240px;
+	}
+
+	.hero p {
+		margin-top: 4rem;
+	}
+}
+
+@media(max-width: 855px) {
+	.hero {
+		width: 80%;
+	}
+
+	.hero img {
+		width: 160px;
+	}
+
+	.hero p {
+		margin-top: 4rem;
+		font-size: 1.2rem;
 	}
 }
