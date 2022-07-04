@@ -48,16 +48,7 @@ a:hover {
 }
 
 main {
-    display: flex;
-    width: auto;
-    height: 75vh;
-    background-color: black;
-    background-image: url(../img/bg_hero.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
+	background-color: black;
 }
 
 .header_top {
@@ -120,20 +111,39 @@ ul.header_nav_icons {
 
 .hero {
     display: flex;
+    width: 100%;
+    height: 75vh;
+    background-color: black;
+    background-image: url(../img/bg_hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_content {
+    display: flex;
     width: 40%;
     flex-direction: column;
     align-items: center;
 }
 
-.hero img {
+.hero_content img {
 	max-width: 320px;
 }
 
-.hero p {
+.hero_content p {
 	font-size: 1.6rem;
 	text-transform: uppercase;
 	margin-top: 8rem;
 	text-align: center;
+}
+
+.new_items {
+	display: grid;
+	grid-template-columns: 6fr 5fr;
+	width: 100%;
 }
 
 @media(max-width: 1440px) {
@@ -169,29 +179,29 @@ ul.header_nav_icons {
 }
 
 @media(max-width: 1165px) {
-	.hero {
+	.hero_content {
 		width: 60%;
 	}
 	
-	.hero img {
+	.hero_content img {
 		width: 240px;
 	}
 
-	.hero p {
+	.hero_content p {
 		margin-top: 4rem;
 	}
 }
 
 @media(max-width: 855px) {
-	.hero {
+	.hero_content {
 		width: 80%;
 	}
 
-	.hero img {
+	.hero_content img {
 		width: 160px;
 	}
 
-	.hero p {
+	.hero_content p {
 		margin-top: 4rem;
 		font-size: 1.2rem;
 	}
