@@ -140,6 +140,26 @@ header.mobile {
 	padding: 5% 7.7%;
 }
 
+.collection_2018 {
+	grid-template-columns: 1fr;
+}
+
+.collection_2018_image {
+	display: none;
+}
+
+.collection_2018_container {
+	background-image: url('../img/bg_collection_2018.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 10% 0;
+}
+
+.collection_container_content {
+	width: 55%;
+}
+
 .footer_top {
 	position: static;
 	width: 100%;

@@ -253,6 +253,45 @@ ul.header_nav_icons {
 	align-items: center;
 }
 
+.collection_2018 {
+	display: grid;
+	grid-template-columns: 5fr 6fr;
+	width: 100%;
+}
+
+.collection_2018_image img {
+	width: 100%;
+}
+
+.collection_2018_container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.collection_container_content {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.collection_container_content h1 {
+	font-weight: normal;
+	text-shadow: 2px 0 5px black;
+}
+
+.collection_container_content p {
+	font-size: 1.4rem;
+	text-align: center;
+	text-shadow: 2px 0 5px black;
+}
+
+.collection_container_content a.btn {
+	margin-top: 8%;
+}
+
 .footer_top {
 	width: 100%;
 	position: relative;

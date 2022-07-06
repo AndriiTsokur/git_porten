@@ -22,6 +22,10 @@ ul.header_nav_text {
 	font-size: 1rem; /* -0.2rem to previous value */
 }
 
+.collection_container_content p {
+	font-size: 1.1rem;
+}
+
 .footer_top_container {
 	width: 90%; /* +12.2% to previous value */
 }

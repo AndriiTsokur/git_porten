@@ -54,6 +54,14 @@ ul.header_nav_text {
 	padding: 20% 0;
 }
 
+.collection_container_content {
+	width: 85%;
+}
+
+.collection_container_content a.btn {
+	margin-top: 5%;
+}
+
 .footer_top_container {
 	width: 77.8%; /* +10% to previous value */
 }
