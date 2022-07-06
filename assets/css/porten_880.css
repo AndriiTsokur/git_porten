@@ -1,0 +1,31 @@
+li.current {
+	background-color: green;
+}
+
+nav {
+	width: 90%; /* +12.2% to previous value */
+}
+
+.header_top {
+	width: 90%; /* +12.2% to previous value */
+}
+
+ul.header_nav_text {
+    line-height: 50px; /* -10px of previous value */
+}
+
+.hero_container {
+	width: 58%; /* +5% to previous value */
+}
+
+.hero_container p {
+	font-size: 1rem; /* -0.2rem to previous value */
+}
+
+.footer_top_container {
+	width: 90%; /* +12.2% to previous value */
+}
+
+.basement {
+	width: 90%; /* +12.2% to previous value */
+}

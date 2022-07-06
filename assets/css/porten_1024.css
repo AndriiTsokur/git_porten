@@ -1,0 +1,36 @@
+li.current {
+	background-color: blue;
+}
+
+nav {
+	width: 77.8%; /* +10% to previous value */
+}
+
+.header_top {
+	width: 77.8%; /* +10% to previous value */
+}
+
+ul.header_nav_text {
+    line-height: 60px; /* -10px of previous value */
+}
+
+.hero_container {
+	width: 53%; /* +5% to previous value */
+}
+
+.hero_container img {
+	max-width: 35%; /* -8.9% to previous value */
+}
+
+.hero_container p {
+	font-size: 1.2rem; /* -0.2rem to previous value */
+	margin-top: 8%; /* -1% to previous value */
+}
+
+.footer_top_container {
+	width: 77.8%; /* +10% to previous value */
+}
+
+.basement {
+	width: 77.8%; /* +10% to previous value */
+}

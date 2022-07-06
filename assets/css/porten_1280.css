@@ -1,0 +1,32 @@
+li.current {
+	background-color: red;
+}
+
+nav {
+	width: 67.8%; /* +10% to previous value */
+}
+
+.header_top {
+	width: 67.8%; /* +10% to previous value */
+}
+
+ul.header_nav_text {
+    line-height: 70px; /* -10px of previous value */
+}
+
+.hero_container {
+	width: 48%; /* +10% to previous value */
+}
+
+.hero_container p {
+	font-size: 1.4rem; /* -0.2rem to previous value */
+	margin-top: 9%; /* -2% to previous value */
+}
+
+.footer_top_container {
+	width: 67.8%; /* +10% to previous value */
+}
+
+.basement {
+	width: 67.8%; /* +10% to previous value */
+}

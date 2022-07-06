@@ -1,0 +1,171 @@
+header {
+	display: none;
+}
+
+header.mobile {
+	display: flex;
+	width: 100%;
+	background-color: black;
+	position: sticky;
+	top: 0;
+	z-index: 3;
+}
+
+.header_top_mobile {
+	display: flex;
+	width: 90%;
+	height: 35px;
+	padding: 2% 0 1% 0;
+	justify-content: space-between;
+    align-items: center;
+	color: white;
+}
+
+.header_top_mobile img {
+	max-width: 65%;
+}
+
+/* Burger Menu START */
+
+.menu-btn {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 5px;
+	right: 25px;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	z-index: 1;
+}
+   
+.menu-btn > span,
+.menu-btn > span::before,
+.menu-btn > span::after {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: gray;
+	transition-duration: .25s;
+}
+.menu-btn > span::before {
+	content: '';
+	top: -8px;
+}
+.menu-btn > span::after {
+	content: '';
+	top: 8px;
+}
+   
+.menubox {
+	display: block;
+	position: fixed;
+	visibility: hidden;
+	top: 35px;
+	left: -100%;
+	width: 35%;
+	height: 100%;
+	margin: 0;
+	padding: 5% 0;
+	list-style: none;
+	background-color: #1f1f1f;
+	box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+	transition-duration: .25s;
+}
+   
+.menu-item {
+	display: block;
+	padding: 3% 5%;
+	color: gray;
+	font-size: 1rem;
+	text-decoration: none;
+	transition-duration: .25s;
+}
+.menu-item:hover {
+	background-color: black;
+}
+.icons_mobile {
+    display: flex;
+    width: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
+    row-gap: 5%;
+    justify-content: space-between;
+}   
+   
+#menu-toggle {
+	opacity: 0;
+}
+   
+#menu-toggle:checked ~ .menu-btn > span {
+	transform: rotate(45deg);
+}
+#menu-toggle:checked ~ .menu-btn > span::before {
+	top: 0;
+	transform: rotate(0);
+}
+#menu-toggle:checked ~ .menu-btn > span::after {
+	top: 0;
+	transform: rotate(90deg);
+}
+  #menu-toggle:checked ~ .menubox {
+	visibility: visible;
+	left: 0;
+}
+
+/* Burger Menu END */
+
+.hero_container {
+	width: 70%;
+}
+
+.hero_container img {
+	max-width: 25%;
+}
+
+.hero_container p {
+	font-size: .5rem;
+	margin-top: 4%;
+}
+
+.footer_top {
+	position: static;
+	width: 100%;
+	height: 40vh;
+	background-image: url('../img/bg_footer.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+}
+
+.footer_top_container {
+	display: block;
+	position: static;
+	width: 90%;
+	transform: none;
+}
+
+img.footer_top_bg_desktop {
+	display: none;
+}
+
+.footer_top_container_item {
+	margin: 2% 0;
+}
+
+.footer_top_container_item p {
+	font-size: .5rem;
+}
+
+.basement {
+	width: 90%;
+}
+
+.basement p {
+	font-size: .3rem;
+}

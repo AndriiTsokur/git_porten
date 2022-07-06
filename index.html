@@ -4,7 +4,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/css/portein_style.css">
+	<link rel="stylesheet" href="assets/css/porten_1920_main.css">
+	<link rel="stylesheet" href="assets/css/porten_1280.css" media="screen and (max-width: 1280px)">
+	<link rel="stylesheet" href="assets/css/porten_1024.css" media="screen and (max-width: 1024px)">
+	<link rel="stylesheet" href="assets/css/porten_880.css" media="screen and (max-width: 880px)">
+	<link rel="stylesheet" href="assets/css/porten_750.css" media="screen and (max-width: 750px)">
 	<title>Portein | Главная</title>
 </head>
 <body>
@@ -31,6 +35,7 @@
 				</ul>
 			</div>
 		</div>
+
 		<nav>
 			<div>
 				<img src="assets/img/logo_porten_compact.svg" alt="Логотип">
@@ -50,15 +55,72 @@
 			</div>
 		</nav>
 	</header>
+
+	<!-- Header for mobile devices START -->
+
+	<header class="mobile">
+		<div class="header_top_mobile">
+			<div>
+				<img src="assets/img/logo_porten_compact.svg" alt="Логотип">
+			</div>
+			<div>
+				<div class="burger-menu">
+					<input id="menu-toggle" type="checkbox" />
+					<label class="menu-btn" for="menu-toggle">
+						<span></span>
+					</label>
+				 
+					<ul class="menubox">
+						<li><a class="menu-item" href="#">Войти / Регистрация</a></li>
+						<li><a class="menu-item" href="#">Понравилось</a></li>
+						<li><a class="menu-item" href="#">Личный кабинет</a></li>
+						<li><a class="menu-item" href="#">Настройки</a></li>
+						<li>
+							<div class="icons_mobile">
+								<div><a href="#"><img src="assets/img/icons/icon_cart.svg"></a></div>
+								<div><a href="#"><img src="assets/img/icons/icon_search.svg"></a></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Header for mobile devices END -->
+
 	<main>
 		<div class="hero">
-			<div class="hero_content">
-				<img src="assets/img/logo_porten_full.svg" alt="Логотип">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
+			<img src="assets/img/bg_hero.png">
+			<div class="hero_container">
+					<img src="assets/img/logo_porten_full.svg" alt="Логотип">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
 			</div>
 		</div>
 
-		<section class="new_items">
+		<footer>
+			<div class="footer_top">
+				<img class="footer_top_bg_desktop" src="assets/img/bg_footer.png" alt="">
+				<div class="footer_top_container">
+					<div class="footer_top_container_item">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, culpa in ratione unde natus exercitationem! Maxime porro voluptates reiciendis quod, sunt facere eius consequuntur a molestias fugiat harum, non autem?</p>
+					</div>
+					<div class="footer_top_container_item">
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, dolor? Consectetur tenetur eos voluptatum debitis exercitationem dolorum non ratione nulla unde odio corporis magnam cupiditate culpa impedit aperiam, laborum aliquid?</p>
+					</div>
+					<div class="footer_top_container_item">
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius eaque suscipit perferendis, labore ipsam illo qui provident, expedita consequuntur, rerum illum quaerat. Est inventore nemo minus quisquam numquam porro minima.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="basement">
+				<p>© 2020 Все права защищены</p>
+				<p><a href="#">Сделано Figma.info</a></p>
+			</div>
+		</footer>
+
+		<!-- <section class="new_items">
 			<div class="new_season">
 				<h1>СЕЗОН 2020/21</h1>
 				<hr>
@@ -93,7 +155,7 @@
 				<hr>
 				<a href="#">Каталог</a>
 			</div>
-		</section>
+		</section> -->
 	</main>
 </body>
 </html>
