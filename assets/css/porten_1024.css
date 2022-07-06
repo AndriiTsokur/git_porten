@@ -6,6 +6,25 @@ nav {
 	width: 77.8%; /* +10% to previous value */
 }
 
+a.btn {
+	font-size: 1.4rem;
+	padding: 8px 18px;
+}
+
+h1 {
+	font-size: 2.6rem;
+}
+
+h2 {
+	font-size: 1.4rem;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+hr {
+	margin: 3% 0 5% 0;
+}
+
 .header_top {
 	width: 77.8%; /* +10% to previous value */
 }
@@ -25,6 +44,14 @@ ul.header_nav_text {
 .hero_container p {
 	font-size: 1.2rem; /* -0.2rem to previous value */
 	margin-top: 8%; /* -1% to previous value */
+}
+
+.new_season_item p {
+	font-size: 1.2rem
+}
+
+.new_season_item_image {
+	padding: 20% 0;
 }
 
 .footer_top_container {

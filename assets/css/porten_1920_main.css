@@ -54,8 +54,41 @@ a:hover {
 	color: white;
 }
 
+a.btn {
+	color: white;
+	font-size: 1.8rem;
+	border: solid 1px white;
+	padding: 12px 28px;
+}
+
+a.btn:hover {
+	background-color: #1f1f1f;
+}
+
 main {
 	background-color: black;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	color: white;
+	font-size: 3.6rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	color: white;
+	font-size: 1.8rem;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+hr {
+	border: solid 1px white;
+	width: 120px;
+	margin: 5% 0 8% 0;
 }
 
 footer {
@@ -124,7 +157,6 @@ ul.header_nav_icons {
 
 .hero {
 	position: relative;
-	background-color: black;
 	text-align: center;
 }
 
@@ -151,9 +183,76 @@ ul.header_nav_icons {
 	text-align: center;
 }
 
-.footer_top {
+.new_items {
+	display: grid;
+	grid-template-columns: 6fr 5fr;
+	width: 100%;
+}
+
+.new_season {
+	width: 100%;
+	padding: 0 7.7%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.new_season_items {
+	width: 100%;
+	display: flex;
+	column-gap: 5.98%;
+}
+
+.new_season_item {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.new_season_item p {
+	font-family: 'Playfair Display', serif;
+	color: white;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.new_season_item_image {
+    width: 100%;
+	display: flex;
+    background-color: #191B1C;
+	justify-content: center;
+	padding: 25% 0;
+}
+
+.new_season_item_image img {
+	max-width: 100%;
+}
+
+.new_collection {
 	position: relative;
-	/* text-align: center; */
+	text-align: center;
+}
+
+.new_collection img {
+	width: 100%;
+}
+
+.new_collection_container {
+	width: 90%;
+	position: absolute;
+	top: 68%;
+	left: 50%;
+	transform: translate(-50%, -32%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer_top {
+	width: 100%;
+	position: relative;
+	text-align: center;
 }
 
 img.footer_top_bg_desktop {
@@ -192,10 +291,3 @@ img.footer_top_bg_desktop {
 	font-weight: bold;
 	text-decoration: underline;
 }
-
-/* .new_items {
-	display: grid;
-	grid-template-columns: 6fr 5fr;
-	width: 100%;
-} */
-
