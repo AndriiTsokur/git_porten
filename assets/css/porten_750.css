@@ -32,9 +32,9 @@ header.mobile {
 	align-items: center;
 	position: absolute;
 	top: 5px;
-	right: 25px;
-	width: 26px;
-	height: 26px;
+	right: 20px;
+	width: 20px;
+	height: 25px;
 	cursor: pointer;
 	z-index: 1;
 }
@@ -64,7 +64,7 @@ header.mobile {
 	visibility: hidden;
 	top: 35px;
 	left: -100%;
-	width: 35%;
+	width: 60%;
 	height: 100%;
 	margin: 0;
 	padding: 5% 0;
@@ -76,9 +76,9 @@ header.mobile {
    
 .menu-item {
 	display: block;
-	padding: 3% 5%;
+	padding: 10px 0 10px 15px;
 	color: gray;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	text-decoration: none;
 	transition-duration: .25s;
 }
@@ -87,11 +87,11 @@ header.mobile {
 }
 .icons_mobile {
     display: flex;
-    width: 50px;
-    margin-top: 5%;
-    margin-left: 5%;
-    row-gap: 5%;
+    width: 70px;
+	height: 50px;
+    margin-left: 15px;
     justify-content: space-between;
+	align-items: center;
 }   
    
 #menu-toggle {
@@ -117,16 +117,16 @@ header.mobile {
 /* Burger Menu END */
 
 .hero_container {
-	width: 70%;
+	width: 90%;
 }
 
 .hero_container img {
-	max-width: 25%;
+	max-width: 20%;
 }
 
 .hero_container p {
-	font-size: .5rem;
-	margin-top: 4%;
+	font-size: .8rem;
+	margin-top: 2%;
 }
 
 .footer_top {
@@ -159,7 +159,7 @@ img.footer_top_bg_desktop {
 }
 
 .footer_top_container_item p {
-	font-size: .5rem;
+	font-size: 1rem;
 }
 
 .basement {
@@ -167,5 +167,5 @@ img.footer_top_bg_desktop {
 }
 
 .basement p {
-	font-size: .3rem;
+	font-size: .8rem;
 }
