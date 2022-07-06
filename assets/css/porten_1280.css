@@ -6,6 +6,10 @@ nav {
 	width: 67.8%; /* +10% to previous value */
 }
 
+hr {
+	margin: 3% 0 5% 0;
+}
+
 .header_top {
 	width: 67.8%; /* +10% to previous value */
 }
