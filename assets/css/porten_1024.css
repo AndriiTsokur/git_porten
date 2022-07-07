@@ -1,6 +1,6 @@
-li.current {
+/* li.current {
 	background-color: blue;
-}
+} */
 
 nav {
 	width: 77.8%; /* +10% to previous value */
@@ -56,6 +56,10 @@ ul.header_nav_text {
 
 .collection_container_content a.btn {
 	margin-top: 5%;
+}
+
+.arrivals_container {
+	width: 77.8%; /* +10% to previous value */
 }
 
 .brands_container {

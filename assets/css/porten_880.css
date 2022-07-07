@@ -1,6 +1,6 @@
-li.current {
+/* li.current {
 	background-color: green;
-}
+} */
 
 nav {
 	width: 90%; /* +12.2% to previous value */
@@ -30,12 +30,16 @@ ul.header_nav_text {
 	font-size: .9rem;
 }
 
-.footer_top {
-	height: 60vh;
+.arrivals_container {
+	width: 90%; /* +12.2% to previous value */
 }
 
 .brands_container {
 	width: 90%; /* +12.2% to previous value */
+}
+
+.footer_top {
+	height: 60vh;
 }
 
 .footer_top_container {
