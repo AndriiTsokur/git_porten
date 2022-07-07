@@ -58,6 +58,10 @@ ul.header_nav_text {
 	margin-top: 5%;
 }
 
+.brands_container {
+	width: 77.8%; /* +10% to previous value */
+}
+
 .footer_top_container {
 	width: 77.8%; /* +10% to previous value */
 }

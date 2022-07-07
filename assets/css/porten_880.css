@@ -34,6 +34,10 @@ ul.header_nav_text {
 	height: 60vh;
 }
 
+.brands_container {
+	width: 90%; /* +12.2% to previous value */
+}
+
 .footer_top_container {
 	width: 90%; /* +12.2% to previous value */
 }

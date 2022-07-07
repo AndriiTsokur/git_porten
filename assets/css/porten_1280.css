@@ -7,7 +7,7 @@ nav {
 }
 
 hr {
-	margin: 3% 0 5% 0;
+	margin: 15px 0 25px 0;
 }
 
 input[type="text"] {
@@ -33,6 +33,10 @@ ul.header_nav_text {
 
 .collection_container_content {
 	width: 75%;
+}
+
+.brands_container {
+	width: 67.8%; /* +10% to previous value */
 }
 
 .footer_top_container {

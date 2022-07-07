@@ -177,6 +177,14 @@ header.mobile {
 	width: 75%;
 }
 
+.brands_container_items {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 30px;
+	row-gap: 15px;
+}
+
 .footer_top {
 	/* position: static; */
 	width: 100%;
