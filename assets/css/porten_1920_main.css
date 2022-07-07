@@ -288,6 +288,11 @@ ul.header_nav_icons {
 
 .new_season_item_image img {
 	max-width: 100%;
+	transition: 250ms all;
+}
+
+.new_season_item_image img:hover {
+	transform: scale(1.15);
 }
 
 .new_collection {
