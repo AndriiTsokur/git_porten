@@ -404,6 +404,7 @@ ul.header_nav_icons {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 10px;
 }
 
 .footer_top_container {
@@ -428,10 +429,11 @@ ul.header_nav_icons {
 
 .basement {
 	width: 57.8%;
-	padding: 10px 0;
 	display: flex;
 	color: lightgray;
 	justify-content: space-between;
+	padding-top: 5px;
+	padding-bottom: 15px;
 }
 
 .basement p {
