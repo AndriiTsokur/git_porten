@@ -208,7 +208,8 @@ header.mobile {
 }
 
 .footer_top_container_item p {
-	font-size: 1.1rem;
+	font-size: .9rem;
+	width: 85%;
 }
 
 .basement {
