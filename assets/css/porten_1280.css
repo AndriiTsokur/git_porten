@@ -10,6 +10,10 @@ hr {
 	margin: 3% 0 5% 0;
 }
 
+input[type="text"] {
+	width: 46%;
+}
+
 .header_top {
 	width: 67.8%; /* +10% to previous value */
 }

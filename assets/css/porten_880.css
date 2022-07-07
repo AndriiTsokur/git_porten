@@ -6,6 +6,10 @@ nav {
 	width: 90%; /* +12.2% to previous value */
 }
 
+input[type="submit"] {
+	padding: 10px 10px;
+}
+
 .header_top {
 	width: 90%; /* +12.2% to previous value */
 }
@@ -24,6 +28,10 @@ ul.header_nav_text {
 
 .collection_container_content p {
 	font-size: 1.1rem;
+}
+
+.footer_top {
+	height: 40vh;
 }
 
 .footer_top_container {
