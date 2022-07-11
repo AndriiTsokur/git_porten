@@ -15,26 +15,17 @@
 <body>
 	<header>
 		<div class="header_top">
-			<div>
-				<a href="tel:+380(48)123-45-67"><img src="assets/img/icons/icon_phone.svg" alt="Позвонить"></a>
-			</div>
-			<div>
-				<ul class="header_top_contact">
-					<li><a href="tel:+380(48)123-45-67">+380 (48) 123-45-67</a></li>
-					<li>Работаем 7 дней в неделю</li>
-					<li>9:00 — 18:00</li>
-				</ul>
-			</div>
-			<div>
-				<a href="#"><img src="assets/img/icons/icon_login.svg" alt="Войти"></a>
-			</div>
-			<div>
-				<ul class="header_top_login">
-					<li><a href="#">Войти</a></li>
-					<li>/</li>
-					<li><a href="#">Регистрация</a></li>
-				</ul>
-			</div>
+			<ul class="header_top_contact">
+				<li><a href="tel:+380(48)123-45-67"><img src="assets/img/icons/icon_phone.svg" alt="Позвонить"></a></li>
+				<li>+380 (48) 123-45-67</li>
+				<li>Работаем 7 дней в неделю</li>
+				<li>9:00 — 18:00</li>
+			</ul>
+
+			<ul class="header_top_login">
+				<li><a href="#"><img src="assets/img/icons/icon_login.svg" alt="Войти"></a></li>
+				<li><a href="#">Войти / Регистрация</a></li>
+			</ul>
 		</div>
 
 		<nav>
@@ -68,7 +59,7 @@
 			<div>
 				<div class="burger-menu">
 					<input id="menu-toggle" type="checkbox" />
-					<label class="menu-btn" for="menu-toggle">
+					<label id="damn" class="menu-btn" for="menu-toggle">
 						<span></span>
 					</label>
 				 
@@ -99,7 +90,7 @@
 
 	<!-- Header for mobile devices END -->
 
-	<main>
+	<main id="scroll">
 		<div class="hero">
 			<img src="assets/img/bg_hero.png">
 			<div class="hero_container">
@@ -277,5 +268,20 @@
 			</div>
 		</footer>
 	</main>
+	<div id="myBackstage" class="backstage"></div>
+	<script>
+		var backstage = document.getElementById('myBackstage');
+		var bodyScroll = document.getElementById('scroll');
+		var trigger = document.getElementById('damn');
+		trigger.onclick = function() {
+			if (backstage.style.display === "block") {
+				backstage.style.display = "none";
+				bodyScroll.style.position = "static";
+			} else {
+				backstage.style.display = "block";
+				bodyScroll.style.position = "fixed";
+			}
+		}
+	</script>
 </body>
 </html>

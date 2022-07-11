@@ -130,10 +130,33 @@ header.mobile {
 	top: 0;
 	transform: rotate(90deg);
 }
-  #menu-toggle:checked ~ .menubox {
+#menu-toggle:checked ~ .menubox {
 	visibility: visible;
 	left: 0;
 }
+
+.backstage {
+	display: none;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	backdrop-filter: blur(4px);
+	animation-name: fadeIn;
+	animation-duration: .4s;
+}
+
+  @-webkit-keyframes fadeIn {
+	from {opacity: 0} 
+	to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+	from {opacity: 0} 
+	to {opacity: 1}
+  }
 
 /* Burger Menu END */
 

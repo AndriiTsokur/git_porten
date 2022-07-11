@@ -161,21 +161,21 @@ input[type="submit"] {
 .header_top {
 	width: 57.8%;
 	padding: 1.1% 0;
-	display: grid;
-	grid-template-columns: 1fr 7fr 1fr 2fr;
-	align-items: center;
+	display: flex;
 	font-size: 1.2rem;
-}
-
-ul.header_top_contact {
-	justify-content: center;
+	justify-content: space-between;
+    align-items: baseline;
 }
 
 .header_top_contact li {
 	padding: 0 1.5rem;
 }
 
-.header_top_contact li:nth-child(2) {
+.header_top_contact li:first-child {
+	padding: 0;
+}
+
+.header_top_contact li:nth-child(3) {
 	border-left: solid .1rem gray;
 	border-right: solid .1rem gray;
 }
@@ -200,11 +200,11 @@ ul.header_nav_text {
 	padding: 0 2rem 0 2rem;
 }
 
-li.current {
-	background-color: #1f1f1f;
+.header_nav_text li:hover {
+	background-color: #1F1F1F;
 }
 
-.current a {
+.header_nav_text li:hover > a {
 	color: white;
 }
 
