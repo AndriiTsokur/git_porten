@@ -481,7 +481,7 @@ ul.header_nav_icons {
 	text-decoration: underline;
 }
 
-/* SLIDER */
+/* Slider START */
 
 *,
     *::before,
@@ -528,3 +528,5 @@ ul.header_nav_icons {
     .slider__item:nth-child(5) {
       background-color: #4caf50;
     } */
+
+/* Slider END */
