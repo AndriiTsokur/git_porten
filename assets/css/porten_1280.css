@@ -22,14 +22,6 @@ ul.header_nav_text {
     line-height: 70px; /* -10px of previous value */
 }
 
-.hero_container {
-	width: 48%; /* +10% to previous value */
-}
-
-.hero_container p {
-	margin-top: 9%; /* -2% to previous value */
-}
-
 .collection_container_content {
 	width: 75%;
 }
