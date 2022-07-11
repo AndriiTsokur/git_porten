@@ -33,14 +33,6 @@ ul.header_nav_text {
 	width: 70%;
 }
 
-.hero_container img {
-	max-width: 35%; /* -8.9% to previous value */
-}
-
-.hero_container p {
-	margin-top: 8%; /* -1% to previous value */
-}
-
 .new_season_item p {
 	font-size: 1.2rem
 }

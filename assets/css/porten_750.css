@@ -169,11 +169,7 @@ header.mobile {
 }
 
 .hero_container img {
-	max-width: 40%;
-}
-
-.hero_container p {
-	margin-top: 5%;
+	max-width: 30%;
 }
 
 .new_items {
