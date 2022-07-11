@@ -160,17 +160,20 @@ header.mobile {
 
 /* Burger Menu END */
 
+.hero {
+	height: 70vh;
+}
+
 .hero_container {
 	width: 90%;
 }
 
 .hero_container img {
-	max-width: 20%;
+	max-width: 40%;
 }
 
 .hero_container p {
-	font-size: .8rem;
-	margin-top: 2%;
+	margin-top: 5%;
 }
 
 .new_items {
@@ -204,6 +207,10 @@ header.mobile {
 	width: 75%;
 }
 
+.collection_container_content p {
+	font-size: 1.4rem;
+}
+
 .arrivals_container_items {
 	width: 100%;
 	display: grid;
@@ -223,7 +230,7 @@ header.mobile {
 
 .footer_top {
 	width: 100%;
-	height: 90vh;
+	height: 100vh;
 	background-image: url('../img/bg_footer.png');
 	background-position: top;
 	background-repeat: no-repeat;
@@ -251,7 +258,7 @@ header.mobile {
 }
 
 .footer_top_container_item p {
-	font-size: .9rem;
+	font-size: 1.4rem;
 	width: 85%;
 }
 

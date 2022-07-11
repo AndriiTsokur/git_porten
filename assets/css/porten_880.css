@@ -18,12 +18,8 @@ ul.header_nav_text {
     line-height: 50px; /* -10px of previous value */
 }
 
-.hero_container {
-	width: 58%; /* +5% to previous value */
-}
-
 .hero_container p {
-	font-size: 1rem; /* -0.2rem to previous value */
+	margin-top: 5%;
 }
 
 .collection_container_content p {
