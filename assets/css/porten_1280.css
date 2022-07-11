@@ -45,3 +45,8 @@ ul.header_nav_text {
 .basement {
 	width: 67.8%; /* +10% to previous value */
 }
+
+.slider__item {
+	flex: 0 0 33.3333333333%;
+	max-width: 33.3333333333%;
+}
