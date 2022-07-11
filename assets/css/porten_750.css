@@ -112,7 +112,7 @@ header.mobile {
 }
 
 .menubox p:first-child {
-	padding-top: 20%;
+	padding-top: 10%;
 }
    
 #menu-toggle {
@@ -161,7 +161,7 @@ header.mobile {
 /* Burger Menu END */
 
 .hero {
-	height: 70vh;
+	height: 80vh;
 }
 
 .hero_container {
@@ -265,3 +265,8 @@ header.mobile {
 .basement p {
 	font-size: .8rem;
 }
+
+.slider__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }

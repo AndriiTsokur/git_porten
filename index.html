@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/chief-slider.min.css">
 	<link rel="stylesheet" href="assets/css/porten_1920_main.css">
 	<link rel="stylesheet" href="assets/css/porten_1440.css" media="screen and (max-width: 1440px)">
 	<link rel="stylesheet" href="assets/css/porten_1280.css" media="screen and (max-width: 1280px)">
@@ -104,29 +105,70 @@
 			<div class="new_season">
 				<h1>СЕЗОН 2020/21</h1>
 				<hr>
-				<div class="new_season_items">
-					<div class="new_season_item">
-						<div class="new_season_item_image">
-							<a href="#"><img src="assets/img/item_watch_template.png" alt="Louis XVI ATHOS"></a>
+				<!-- <div class="new_season_items"> -->
+					<div class="slider">
+						<!-- <ol class="slider__indicators">
+							<li data-slide-to="0"></li>
+							<li data-slide-to="1"></li>
+							<li data-slide-to="2"></li>
+							<li data-slide-to="3"></li>
+							<li data-slide-to="4"></li>
+						  </ol> -->
+						<div class="slider__container">
+							<div class="slider__wrapper">
+								<div class="slider__items new_season_items">
+									<div class="slider__item">
+										<div class="new_season_item">
+											<div class="new_season_item_image_slide">
+												<a href="#"><img src="assets/img/item_watch_template.png" alt="Louis XVI ATHOS"></a>
+											</div>
+											<h2>Louis XVI ATHOS</h2>
+											<p>80 550 ₴</p>
+										</div>
+									</div>
+									<div class="slider__item">
+										<div class="new_season_item">
+											<div class="new_season_item_image_slide">
+												<a href="#"><img src="assets/img/item_watch_template.png" alt="Louis XVI ATHOS"></a>
+											</div>
+											<h2>Louis XVI ATHOS</h2>
+											<p>80 550 ₴</p>
+										</div>
+									</div>
+									<div class="slider__item">
+										<div class="new_season_item">
+											<div class="new_season_item_image_slide">
+												<a href="#"><img src="assets/img/item_watch_template.png" alt="Louis XVI ATHOS"></a>
+											</div>
+											<h2>Louis XVI ATHOS</h2>
+											<p>80 550 ₴</p>
+										</div>
+									</div>
+									<div class="slider__item">
+										<div class="new_season_item">
+											<div class="new_season_item_image_slide">
+												<a href="#"><img src="assets/img/item_watch_template.png" alt="Louis XVI ATHOS"></a>
+											</div>
+											<h2>Louis XVI ATHOS</h2>
+											<p>80 550 ₴</p>
+										</div>
+									</div>
+									<div class="slider__item">
+										<div class="new_season_item">
+											<div class="new_season_item_image_slide">
+												<a href="#"><img src="assets/img/item_watch_template.png" alt="Louis XVI ATHOS"></a>
+											</div>
+											<h2>Louis XVI ATHOS</h2>
+											<p>80 550 ₴</p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-						<h2>Louis XVI ATHOS</h2>
-						<p>80 550 ₴</p>
+						<a href="#" class="slider__control" data-slide="prev"></a>
+						<a href="#" class="slider__control" data-slide="next"></a>
 					</div>
-					<div class="new_season_item">
-						<div class="new_season_item_image">
-							<a href="#"><img src="assets/img/item_watch_template.png" alt="Louis XVI ATHOS"></a>
-						</div>
-						<h2>Louis XVI ATHOS</h2>
-						<p>80 550 ₴</p>
-					</div>
-					<div class="new_season_item">
-						<div class="new_season_item_image">
-							<a href="#"><img src="assets/img/item_watch_template.png" alt="Louis XVI ATHOS"></a>
-						</div>
-						<h2>Louis XVI ATHOS</h2>
-						<p>80 550 ₴</p>
-					</div>
-				</div>
+				<!-- </div> -->
 			</div>
 
 			<div class="new_collection">
@@ -232,57 +274,58 @@
 				</div>
 			</div>
 		</section>
+	</main>
 
-		<footer>
-			<div class="footer_top">
-				<div class="footer_top_container">
-					<div class="footer_top_container_item">
-						<h3>О магазине</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh. Egestas amet consectetur vel vitae aliquam dictum suspendisse. Lobortis eget consequat, tellus et et sed turpis. Pretium quisque vitae, amet, porttitor odio ultricies massa pharetra leo. Et ipsum urna fames in sit mi ultrices nisi, nunc.</p>
-					</div>
-					<div class="footer_top_container_item">
-						<h3>Категории</h3>
-						<ul>
-							<li><a class="btn_dark" href="#">часы</a></li>
-							<li><a class="btn_dark" href="#">браслеты</a></li>
-							<li><a class="btn_dark" href="#">ремни</a></li>
-							<li><a class="btn_dark" href="#">ювелирные изделия</a></li>
-							<li><a class="btn_dark" href="#">запонки</a></li>
-						</ul>
-					</div>
-					<div class="footer_top_container_item">
-						<h3>Рассылка</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh.</p>
-						<div class="footer_top_container_item_form">
-							<form action="" method="get">
-								<input type="text" name="email" placeholder="Ваша почта" />
-								<input type="submit" value="ПОДПИСАТЬСЯ" />
-							</form>
-						</div>
+	<footer>
+		<div class="footer_top">
+			<div class="footer_top_container">
+				<div class="footer_top_container_item">
+					<h3>О магазине</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh. Egestas amet consectetur vel vitae aliquam dictum suspendisse. Lobortis eget consequat, tellus et et sed turpis. Pretium quisque vitae, amet, porttitor odio ultricies massa pharetra leo. Et ipsum urna fames in sit mi ultrices nisi, nunc.</p>
+				</div>
+				<div class="footer_top_container_item">
+					<h3>Категории</h3>
+					<ul>
+						<li><a class="btn_dark" href="#">часы</a></li>
+						<li><a class="btn_dark" href="#">браслеты</a></li>
+						<li><a class="btn_dark" href="#">ремни</a></li>
+						<li><a class="btn_dark" href="#">ювелирные изделия</a></li>
+						<li><a class="btn_dark" href="#">запонки</a></li>
+					</ul>
+				</div>
+				<div class="footer_top_container_item">
+					<h3>Рассылка</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh.</p>
+					<div class="footer_top_container_item_form">
+						<form action="" method="get">
+							<input type="text" name="email" placeholder="Ваша почта" />
+							<input type="submit" value="ПОДПИСАТЬСЯ" />
+						</form>
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<div class="basement">
-				<p>© 2020 Все права защищены</p>
-				<p><a href="#">Сделано Figma.info</a></p>
-			</div>
-		</footer>
-	</main>
+		<div class="basement">
+			<p>© 2020 Все права защищены</p>
+			<p><a href="#">Сделано Figma.info</a></p>
+		</div>
+	</footer>
+
 	<div id="myBackstage" class="backstage"></div>
+	<script src="assets/js/hide_backstage.js"></script>
+
+	<script defer src="assets/js/chief-slider.min.js"></script>
 	<script>
-		var backstage = document.getElementById('myBackstage');
-		var bodyScroll = document.getElementById('scroll');
-		var trigger = document.getElementById('damn');
-		trigger.onclick = function() {
-			if (backstage.style.display === "block") {
-				backstage.style.display = "none";
-				bodyScroll.style.position = "static";
-			} else {
-				backstage.style.display = "block";
-				bodyScroll.style.position = "fixed";
-			}
-		}
+		document.addEventListener('DOMContentLoaded', function () {
+		const slider = new ChiefSlider('.slider', {
+			loop: true,
+			autoplay: true,
+			swipe: true,
+			interval: 2000,
+		});
+		});
 	</script>
+
 </body>
 </html>
